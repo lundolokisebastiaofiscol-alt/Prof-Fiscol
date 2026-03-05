@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prof. Lundoloki</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      transition: 0.3s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .image-section img {
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0f172a;
+      color: #94a3b8;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Prof. Lundoloki</h1>
+  <p>Música • Canto Coral • Educação • Pesquisa Acadêmica</p>
+  <a href="#" class="btn">Contactar</a>
+</header>
+
+<section>
+  <h2>Sobre Mim</h2>
+  <p>
+    Professor universitário na área de Artes e Música, com foco em formação coral,
+    pedagogia musical e investigação académica. Comprometido com a valorização
+    da cultura e da educação em Angola.
+  </p>
+
+  <div class="image-section">
+    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Música">
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Projetos e Áreas</h2>
+  <div class="grid">
+    <div class="card">Educação Musical</div>
+    <div class="card">Canto Coral</div>
+    <div class="card">Pesquisa Científica</div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Prof. Lundoloki | Todos os direitos reservados
+</footer>
+
+</body>
+</html>
